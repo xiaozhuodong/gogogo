@@ -1,0 +1,42 @@
+.box{
+    margin: 20px;
+    position: relative;
+    font-size: 12px;
+    font-family: "Meiryo","微软雅黑";
+}
+.search-icon{
+    background: url(../img/search.png) no-repeat;
+    width:25px;
+    height: 25px;
+    display:block;
+    float: left;
+    position: absolute;
+    left: 321px;
+    top: 5px;
+}
+.after{
+    font-size:0.875em;
+    padding:.3em 2em .3em;
+    border:1px solid rgb(241,202,126);
+    /*border:1px solid #4997d2;*/
+    width: 240px;
+    height: 33px;
+} 
+.btn{
+    border: none;
+    position:absolute;
+    left: 508px;
+    top: -18px;
+    height: 29px;
+    width: 38px;
+    display:inline-block;
+    padding:.3em .5em .3em;
+    font-family:"Avenir LT W01 65 Medium", Arial, Helvetica, sans-serif;
+    color:#4997d2;
+    background: #fff;
+}
+.btn:hover{
+    cursor:pointer;
+    background-color:#4997d2;
+    color:white
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+            <button></button>
+    </div>
+</body>
+<script src="js/main.js"></script>
+	<script>
+		var app = new Vue({
+			el: '#app',
+			data: {
+			},
+			methods: {
+				getData() {
+    			this.axios({
+                method: 'post',
+                url: 'data/personData.json'
+   		 })
+    	.then(function (response) {
+      console.log(response)
+    })
+    .catch(function (error) {
+      console.log(error)
+    })
+  }
+			}
+		});
+	</script>
+</html>
